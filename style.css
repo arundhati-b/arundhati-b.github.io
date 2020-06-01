@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  background-color: rgb(5, 49, 43);
+}
+
+.row {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  background-color:rgb(5, 49, 43);
+  /* background-color:#2f493d; */
+  height: 100vh;
+  width: 100vw;
+}
+
+.left {
+  width: 50%;
+  background-image: url(images/profile_square.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  width: 50%;
+  /* background-color: crimson; */
+}
+
+.content {
+  padding: 2% 5%;
+}
+
+.tagline {
+  color: #ad9064;
+  font-size: 7vw;
+  line-height: 1;
+  /* border: black 2px solid; */
+}
+
+#tag0 {
+  color: #925636;
+  font-size: 2vw;
+  font-family: 'IBM Plex Serif', serif;
+  line-height: 1.5;
+  /* border: black 2px solid; */
+}
+
+#tag1 {
+  font-family: 'Sacramento';
+}
+
+#tag2 {
+  font-family: Courier, monospace;
+  line-height:0.25;
+}
+
+/* #tag3 {
+  font-family: 'Times New Roman', Times, serif;
+} */
+
+h1 {
+  color: #dda080;
+  font-size: 2vw;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.content-bio {
+  /* padding: inherit; */
+  color:#925636;
+  font-size: 2vw;
+  font-family: 'IBM Plex Serif', serif;
+  /* line-height: 1vw; */
+}
+
+.content-bio .link:hover {
+  color:#ad9064;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 10px;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-reddit:hover {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-reddit-alien:hover {
+  background: #ff5700;
+  color: white;
+} 
+.fa-instagram:hover {
+  /* background: #125688; */
+  color: white;
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-envelope:hover {
+  background: #B23121;
+  color: #DADADA;
+}
+
+.fa-github:hover {
+  color: white;
+  background: #211F1F;
+}
