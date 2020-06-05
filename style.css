@@ -1,6 +1,7 @@
 body {
   margin: 0px;
-  background-color: #16372C;
+  /* background-color: #16372C; */
+  background-color: rgb(231, 235, 234);
   color: #925636;
   font-family: 'Sacramento';
 }
@@ -154,7 +155,8 @@ footer {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
-  background-color: wheat;
+  /* background-color: wheat; */
+  background-color: darkslategray;
   /* height: auto; */
 }
 

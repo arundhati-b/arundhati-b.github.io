@@ -105,7 +105,7 @@ let body = document.body;
 tag1.addEventListener("mouseover",function(event){
   // body.style.background = event.target.style.color;
   // alert(body.style.background);
-  body.style.background = "#be7676";
+  body.style.background = "#ECE4B7";
   event.target.style.color = "white";
 },false);
   
@@ -117,7 +117,7 @@ tag1.addEventListener("mouseout",function(event){
 tag2.addEventListener("mouseover",function(event){
   // body.style.background = event.target.style.color;
   // alert(body.style.background);
-  body.style.background = "rgb(182, 159, 159)";
+  body.style.background = "#D9DD92";
   event.target.style.color = "white";
 },false);
   
@@ -129,7 +129,7 @@ tag2.addEventListener("mouseout",function(event){
 tag3.addEventListener("mouseover",function(event){
   // body.style.background = event.target.style.color;
   // alert(body.style.background);
-  body.style.background = "#ad9064";
+  body.style.background = "#EABE7C";
   event.target.style.color = "white";
 },false);
   
